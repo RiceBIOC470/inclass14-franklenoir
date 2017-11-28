@@ -1,5 +1,10 @@
 %Inclass 14
 %Walter Frank Lenoir
+%GB comments
+1 100 
+2a 100 
+2b 100
+
 %Work with the image stemcells_dapi.tif in this folder
 reader1 = bfGetReader('stemcells_dapi.tif');
 iplane = reader1.getIndex(1-1,1-1,1-1)+1;
